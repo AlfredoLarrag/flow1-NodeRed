@@ -37,7 +37,25 @@ Para ejecutar este flow, es necesario lo siguiente
     Importar el flow
     Hacer clic en el boton Deploy
 
-Instrucciones de operación
+Instrucciones de operación 
+
+    Para observar el resutlado de este flow, sólo es necesario abrir la pestaña Debug.
+    
+Segundo Flow
+
+    Agregamos un boton de funcion
+    Lo configuramos para que cada que repita nos de la fecha con 
+    var date = new
+    Date/(msg.payload);
+    msg.payload=date.toString();
+    
+Tercer Flow
+
+    Clonamos el segundo flow
+    Agregamos los nodos node-red-dashboard
+    Agregamos un botod dashboard de texto
+    Lo configuramos en la funcion Dashboard
+    Nos dirigimos a http/localhost/1880/ui
 
 Evidencia
 
